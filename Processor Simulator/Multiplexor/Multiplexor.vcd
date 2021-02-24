@@ -1,0 +1,64 @@
+$date
+  Mon Jun 01 00:52:33 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 16 ! entrada1[15:0] $end
+$var reg 16 " entrada2[15:0] $end
+$var reg 16 # entrada3[15:0] $end
+$var reg 16 $ entrada4[15:0] $end
+$var reg 16 % salida[15:0] $end
+$var reg 2 & selector[1:0] $end
+$scope module uut $end
+$var reg 16 ' entrada1[15:0] $end
+$var reg 16 ( entrada2[15:0] $end
+$var reg 16 ) entrada3[15:0] $end
+$var reg 16 * entrada4[15:0] $end
+$var reg 16 + salida[15:0] $end
+$var reg 2 , selector[1:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+bUUUUUUUUUUUUUUUU !
+bUUUUUUUUUUUUUUUU "
+bUUUUUUUUUUUUUUUU #
+bUUUUUUUUUUUUUUUU $
+bUUUUUUUUUUUUUUUU %
+bUU &
+bUUUUUUUUUUUUUUUU '
+bUUUUUUUUUUUUUUUU (
+bUUUUUUUUUUUUUUUU )
+bUUUUUUUUUUUUUUUU *
+bUUUUUUUUUUUUUUUU +
+bUU ,
+#100000000
+b0001000100010001 !
+b0001000000010000 "
+b0001111110100001 #
+b0001000000000001 $
+b0001000000010000 %
+b01 &
+b0001000100010001 '
+b0001000000010000 (
+b0001111110100001 )
+b0001000000000001 *
+b0001000000010000 +
+b01 ,
+#200000000
+b0000000000000001 !
+b0001000000010001 "
+b0001101010110001 #
+b0000101110110001 $
+b0000101110110001 %
+b11 &
+b0000000000000001 '
+b0001000000010001 (
+b0001101010110001 )
+b0000101110110001 *
+b0000101110110001 +
+b11 ,
+#300000000

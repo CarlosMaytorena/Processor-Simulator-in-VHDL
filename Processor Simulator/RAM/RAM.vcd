@@ -1,0 +1,39 @@
+$date
+  Thu Jun 04 03:04:31 2020
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 9 ! d[8:0] $end
+$var reg 16 " pin[15:0] $end
+$var reg 16 # pout[15:0] $end
+$var reg 1 $ rw $end
+$var reg 1 % iom $end
+$scope module uut $end
+$var reg 9 & d[8:0] $end
+$var reg 16 ' pin[15:0] $end
+$var reg 16 ( pout[15:0] $end
+$var reg 1 ) rw $end
+$var reg 1 * iom $end
+$comment posicion is not handled $end
+$var integer 32 + linea $end
+$upscope $end
+$enddefinitions $end
+#0
+bUUUUUUUUU !
+bUUUUUUUUUUUUUUUU "
+bZZZZZZZZZZZZZZZZ #
+U$
+U%
+bUUUUUUUUU &
+bUUUUUUUUUUUUUUUU '
+bZZZZZZZZZZZZZZZZ (
+U)
+U*
+b0 +
+#100000000
+#200000000
+#300000000
